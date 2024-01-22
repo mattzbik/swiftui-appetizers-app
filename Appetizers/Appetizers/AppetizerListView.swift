@@ -12,15 +12,21 @@ struct AppetizerListView: View {
     @StateObject var viewModel = AppetizerListViewModel()
     
     var body: some View {
-        NavigationStack {
-            List(viewModel.appetizers) { appetizer in
-                AppetizerListCell(appetizer: appetizer)
-                    .ignoresSafeArea()
+        ZStack {
+            NavigationStack {
+                List(viewModel.appetizers) { appetizer in
+                    AppetizerListCell(appetizer: appetizer)
+                }
+                .listStyle(.plain)
+                .navigationTitle("🍟 Appetizers")
             }
-            .navigationTitle("🍟 Appetizers")
-        }
-        .onAppear {
-            viewModel.getAppetizers()
+            .onAppear {
+                viewModel.getAppetizers()
+            }
+            
+            if viewModel.isLoading {
+                LoadingView()
+            }
         }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title,
@@ -28,7 +34,6 @@ struct AppetizerListView: View {
                   dismissButton: alertItem.dismissButton)
         }
     }
-    
 }
 
 #Preview {
