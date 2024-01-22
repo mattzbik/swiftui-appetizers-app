@@ -17,6 +17,9 @@
 		C95EC7F02B5B181E00EE009B /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7EF2B5B181E00EE009B /* OrderView.swift */; };
 		C95EC7F22B5B1FEA00EE009B /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7F12B5B1FEA00EE009B /* Appetizer.swift */; };
 		C95EC7F42B5B290400EE009B /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7F32B5B290400EE009B /* AppetizerListCell.swift */; };
+		C97F3F612B5F1254004407C5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F3F602B5F1254004407C5 /* LoadingView.swift */; };
+		C97F3F632B5F1300004407C5 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F3F622B5F1300004407C5 /* Color+Ext.swift */; };
+		C97F3F652B5F19E3004407C5 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F3F642B5F19E3004407C5 /* RemoteImage.swift */; };
 		C9C226812B5B2B3300C4362E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C226802B5B2B3300C4362E /* NetworkManager.swift */; };
 		C9C226832B5B2C3600C4362E /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C226822B5B2C3600C4362E /* APError.swift */; };
 		C9C226852B5B323F00C4362E /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C226842B5B323F00C4362E /* AppetizerListViewModel.swift */; };
@@ -34,6 +37,9 @@
 		C95EC7EF2B5B181E00EE009B /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		C95EC7F12B5B1FEA00EE009B /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 		C95EC7F32B5B290400EE009B /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
+		C97F3F602B5F1254004407C5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C97F3F622B5F1300004407C5 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		C97F3F642B5F19E3004407C5 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		C9C226802B5B2B3300C4362E /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		C9C226822B5B2C3600C4362E /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		C9C226842B5B323F00C4362E /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
@@ -82,6 +88,9 @@
 				C9C226822B5B2C3600C4362E /* APError.swift */,
 				C9C226842B5B323F00C4362E /* AppetizerListViewModel.swift */,
 				C94859A12B5F0BA700A96CD5 /* Alert.swift */,
+				C97F3F602B5F1254004407C5 /* LoadingView.swift */,
+				C97F3F622B5F1300004407C5 /* Color+Ext.swift */,
+				C97F3F642B5F19E3004407C5 /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -168,9 +177,12 @@
 				C9C226832B5B2C3600C4362E /* APError.swift in Sources */,
 				C95EC7F42B5B290400EE009B /* AppetizerListCell.swift in Sources */,
 				C9C226852B5B323F00C4362E /* AppetizerListViewModel.swift in Sources */,
+				C97F3F632B5F1300004407C5 /* Color+Ext.swift in Sources */,
 				C95EC7EE2B5B181400EE009B /* AccountView.swift in Sources */,
+				C97F3F612B5F1254004407C5 /* LoadingView.swift in Sources */,
 				C95EC7E02B5B179F00EE009B /* AppetizerTabView.swift in Sources */,
 				C9C226812B5B2B3300C4362E /* NetworkManager.swift in Sources */,
+				C97F3F652B5F19E3004407C5 /* RemoteImage.swift in Sources */,
 				C95EC7DE2B5B179F00EE009B /* AppetizersApp.swift in Sources */,
 				C94859A22B5F0BA700A96CD5 /* Alert.swift in Sources */,
 				C95EC7EC2B5B180C00EE009B /* AppetizerListView.swift in Sources */,
