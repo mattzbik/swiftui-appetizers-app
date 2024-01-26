@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C94859A22B5F0BA700A96CD5 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94859A12B5F0BA700A96CD5 /* Alert.swift */; };
+		C95168412B64138100982ED8 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168402B64138100982ED8 /* AppetizerDetailView.swift */; };
+		C95168442B641ED600982ED8 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168432B641ED600982ED8 /* APButton.swift */; };
+		C95168462B641FD300982ED8 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168452B641FD300982ED8 /* XDismissButton.swift */; };
 		C95EC7DE2B5B179F00EE009B /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7DD2B5B179F00EE009B /* AppetizersApp.swift */; };
 		C95EC7E02B5B179F00EE009B /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7DF2B5B179F00EE009B /* AppetizerTabView.swift */; };
 		C95EC7E22B5B17A000EE009B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95EC7E12B5B17A000EE009B /* Assets.xcassets */; };
@@ -27,6 +30,9 @@
 
 /* Begin PBXFileReference section */
 		C94859A12B5F0BA700A96CD5 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		C95168402B64138100982ED8 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
+		C95168432B641ED600982ED8 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
+		C95168452B641FD300982ED8 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		C95EC7DA2B5B179F00EE009B /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95EC7DD2B5B179F00EE009B /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		C95EC7DF2B5B179F00EE009B /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -72,6 +78,7 @@
 			children = (
 				C9C226842B5B323F00C4362E /* AppetizerListViewModel.swift */,
 				C95EC7EB2B5B180C00EE009B /* AppetizerListView.swift */,
+				C95168402B64138100982ED8 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 		C93384A52B606CB2009B7DA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C95168422B641EC900982ED8 /* Buttons */,
 				C93384A82B606CCD009B7DA5 /* Image */,
 				C93384A72B606CC5009B7DA5 /* Cells */,
 				C93384A62B606CB7009B7DA5 /* UIKitComponents */,
@@ -167,6 +175,15 @@
 				C97F3F642B5F19E3004407C5 /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		C95168422B641EC900982ED8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				C95168432B641ED600982ED8 /* APButton.swift */,
+				C95168452B641FD300982ED8 /* XDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		C95EC7D12B5B179F00EE009B = {
@@ -279,14 +296,17 @@
 			files = (
 				C95EC7F22B5B1FEA00EE009B /* Appetizer.swift in Sources */,
 				C9C226832B5B2C3600C4362E /* APError.swift in Sources */,
+				C95168462B641FD300982ED8 /* XDismissButton.swift in Sources */,
 				C95EC7F42B5B290400EE009B /* AppetizerListCell.swift in Sources */,
 				C9C226852B5B323F00C4362E /* AppetizerListViewModel.swift in Sources */,
 				C97F3F632B5F1300004407C5 /* Color+Ext.swift in Sources */,
 				C95EC7EE2B5B181400EE009B /* AccountView.swift in Sources */,
+				C95168442B641ED600982ED8 /* APButton.swift in Sources */,
 				C97F3F612B5F1254004407C5 /* LoadingView.swift in Sources */,
 				C95EC7E02B5B179F00EE009B /* AppetizerTabView.swift in Sources */,
 				C9C226812B5B2B3300C4362E /* NetworkManager.swift in Sources */,
 				C97F3F652B5F19E3004407C5 /* RemoteImage.swift in Sources */,
+				C95168412B64138100982ED8 /* AppetizerDetailView.swift in Sources */,
 				C95EC7DE2B5B179F00EE009B /* AppetizersApp.swift in Sources */,
 				C94859A22B5F0BA700A96CD5 /* Alert.swift in Sources */,
 				C95EC7EC2B5B180C00EE009B /* AppetizerListView.swift in Sources */,
