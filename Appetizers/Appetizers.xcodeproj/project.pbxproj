@@ -11,6 +11,8 @@
 		C95168412B64138100982ED8 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168402B64138100982ED8 /* AppetizerDetailView.swift */; };
 		C95168442B641ED600982ED8 /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168432B641ED600982ED8 /* APButton.swift */; };
 		C95168462B641FD300982ED8 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168452B641FD300982ED8 /* XDismissButton.swift */; };
+		C95168482B6451A500982ED8 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168472B6451A500982ED8 /* AccountViewModel.swift */; };
+		C951684A2B64532200982ED8 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95168492B64532200982ED8 /* String+Ext.swift */; };
 		C95EC7DE2B5B179F00EE009B /* AppetizersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7DD2B5B179F00EE009B /* AppetizersApp.swift */; };
 		C95EC7E02B5B179F00EE009B /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95EC7DF2B5B179F00EE009B /* AppetizerTabView.swift */; };
 		C95EC7E22B5B17A000EE009B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C95EC7E12B5B17A000EE009B /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 		C95168402B64138100982ED8 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		C95168432B641ED600982ED8 /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		C95168452B641FD300982ED8 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		C95168472B6451A500982ED8 /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		C95168492B64532200982ED8 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		C95EC7DA2B5B179F00EE009B /* Appetizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appetizers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95EC7DD2B5B179F00EE009B /* AppetizersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersApp.swift; sourceTree = "<group>"; };
 		C95EC7DF2B5B179F00EE009B /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 		C933849E2B606BF5009B7DA5 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				C95168472B6451A500982ED8 /* AccountViewModel.swift */,
 				C95EC7ED2B5B181400EE009B /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				C97F3F622B5F1300004407C5 /* Color+Ext.swift */,
+				C95168492B64532200982ED8 /* String+Ext.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 				C9C226832B5B2C3600C4362E /* APError.swift in Sources */,
 				C95168462B641FD300982ED8 /* XDismissButton.swift in Sources */,
 				C95EC7F42B5B290400EE009B /* AppetizerListCell.swift in Sources */,
+				C95168482B6451A500982ED8 /* AccountViewModel.swift in Sources */,
 				C9C226852B5B323F00C4362E /* AppetizerListViewModel.swift in Sources */,
 				C97F3F632B5F1300004407C5 /* Color+Ext.swift in Sources */,
 				C95EC7EE2B5B181400EE009B /* AccountView.swift in Sources */,
@@ -306,6 +313,7 @@
 				C95EC7E02B5B179F00EE009B /* AppetizerTabView.swift in Sources */,
 				C9C226812B5B2B3300C4362E /* NetworkManager.swift in Sources */,
 				C97F3F652B5F19E3004407C5 /* RemoteImage.swift in Sources */,
+				C951684A2B64532200982ED8 /* String+Ext.swift in Sources */,
 				C95168412B64138100982ED8 /* AppetizerDetailView.swift in Sources */,
 				C95EC7DE2B5B179F00EE009B /* AppetizersApp.swift in Sources */,
 				C94859A22B5F0BA700A96CD5 /* Alert.swift in Sources */,
