@@ -13,10 +13,28 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
-            AppetizerRemoteImage(urlString: appetizer.imageURL)
-                .aspectRatio(contentMode: .fit)
-                .frame(width: 120, height: 90)
-                .clipShape(.rect(cornerRadius: 8))
+//            Pro of using this is that images will cache and not require to re-download images.
+//            AppetizerRemoteImage(urlString: appetizer.imageURL)
+//                .aspectRatio(contentMode: .fit)
+//                .frame(width: 120, height: 90)
+//                .clipShape(.rect(cornerRadius: 8))
+            
+            
+//            Con of using AsyncImage is that images won't cache.
+            AsyncImage(url: URL(string: appetizer.imageURL)) { image in
+                image
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 120, height: 90)
+                    .clipShape(.rect(cornerRadius: 8))
+                
+            } placeholder: {
+                Image("food-placeholder")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 120, height: 90)
+                    .clipShape(.rect(cornerRadius: 8))
+            }
             
             VStack(alignment: .leading, spacing: 5) {
                 Text(appetizer.name)
